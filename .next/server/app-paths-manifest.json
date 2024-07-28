@@ -1,5 +1,6 @@
 {
-  "/(home)/page": "app/(home)/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(list)/list/[id]/page": "app/(list)/list/[id]/page.js",
   "/(about)/about/page": "app/(about)/about/page.js",
-  "/(list)/list/[id]/page": "app/(list)/list/[id]/page.js"
+  "/(home)/page": "app/(home)/page.js"
 }

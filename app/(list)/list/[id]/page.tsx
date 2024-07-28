@@ -1,4 +1,4 @@
-import { API_URL } from "../../../(home)/page";
+import { API_URL } from "../../../constants";
 
 async function getBooks(listName: string) {
   const response = await fetch(`${API_URL}/list?name=${listName}`);
