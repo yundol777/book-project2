@@ -18,7 +18,9 @@ export default async function Home() {
       <h1>THE NEW YOURK TIMES BEST SELLER EXPLORER</h1>
       {listName.results.map((list) => (
         <li key={list.list_name}>
-          <Link href={`/list/${list.list_name}`}>{list.list_name} 👉</Link>
+          <Link prefetch href={`/list/${list.list_name}`}>
+            {list.list_name} 👉
+          </Link>
         </li>
       ))}
     </div>
